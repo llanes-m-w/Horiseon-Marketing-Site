@@ -4,7 +4,7 @@
     margin: 0;
 }
 
-/* General Tag Section */
+/* General Tag Section styling */
 body {
     background-color: #d9dcd6;
 }
@@ -52,7 +52,7 @@ p {
     margin-left: 25px;
 }
 
-
+/* Main image controlled by the Style Sheet */
 .mainimage {
     height: 800px;
     width: 100%;
@@ -62,8 +62,7 @@ p {
     background-position: center;
 }
 
-
-/* Float Definitions*/
+/* Float Definitions */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -90,13 +89,13 @@ p {
     color: #ffffff;
 }
 
-.content img {
-    max-height: 200px;
-}
-
 .content h2 {
     margin-bottom: 20px;
     font-size: 36px;
+}
+
+.content img {
+    max-height: 200px;
 }
 
 /* All benefit classes share the same definitions so they are consolodated here */
@@ -111,26 +110,23 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-lead, .benefit-brand, .benefit-cost {
+.benefits div {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-
-.benefit-lead h3, .benefit-brand h3, .benefit-cost h3 {
+.benefits h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-
-.benefit-lead img, .benefit-brand img, .benefit-cost img {
+.benefits img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-
-/* Class definistions for the Footer */
+/* Class definitions for the Footer */
 .footer {
     padding: 30px;
     clear: both;
